@@ -11,7 +11,7 @@ const endpointPath = '/zxc';
 const doh = 'https://dns.nextdns.io/82b849'
 
 // NOTE: below server is in JSON format. For example Google DoH JSON is https://dns.google/resolve (it's not always dns-query).
-const dohjson = 'https://dns.nextdns.io/82b849/resolve'
+const dohjson = ''
 
 const contype = 'application/dns-message'
 const jstontype = 'application/dns-json'
