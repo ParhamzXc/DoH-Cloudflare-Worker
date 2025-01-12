@@ -4,14 +4,14 @@ addEventListener('fetch', function(event) {
     event.respondWith(response)
 })
 
-// request path. Please modify this path to prevent everyone from using this worker.
-const endpointPath = '/zxc';
+// request path, Please modify this path to prevent everyone from using this worker.
+const endpointPath = '';
 
 // you can replace below server with any other DoH servers.
-const doh = 'https://dns.nextdns.io/82b849'
+const doh = 'https://ipv4-vultr-ewr-1.edge.nextdns.io' // this is unicast New-York Next-DNS ultralow. very good one, change it on your desire.
 
 // NOTE: below server is in JSON format. For example Google DoH JSON is https://dns.google/resolve (it's not always dns-query).
-const dohjson = ''
+const dohjson = '' // GET format, fast JS
 
 const contype = 'application/dns-message'
 const jstontype = 'application/dns-json'
